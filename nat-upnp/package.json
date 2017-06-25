@@ -1,0 +1,61 @@
+{
+  "name": "nat-upnp",
+  "version": "1.1.0",
+  "main": "lib/nat-upnp",
+  "author": {
+    "name": "Fedor Indutny",
+    "email": "fedor@indutny.com"
+  },
+  "homepage": "https://github.com/indutny/node-nat-upnp",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/node-nat-upnp.git"
+  },
+  "devDependencies": {
+    "jscs": "^1.11.2",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "jscs lib/*.js test/*.js && mocha --timeout 60000 --reporter spec test/*-test.js"
+  },
+  "dependencies": {
+    "xml2js": "~0.1.14",
+    "request": "^2.79.0",
+    "async": "^2.1.5",
+    "ip": "^1.1.4"
+  },
+  "gitHead": "e85bea849556250f370ab6dc81b358eabfe182c6",
+  "description": "Port mapping via UPnP APIs",
+  "bugs": {
+    "url": "https://github.com/indutny/node-nat-upnp/issues"
+  },
+  "_id": "nat-upnp@1.1.0",
+  "_shasum": "8818856f3b4739de3e7ab023c78748db0364a8f0",
+  "_from": "nat-upnp@>=1.0.2 <2.0.0",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "7.0.0",
+  "_npmUser": {
+    "name": "indutny",
+    "email": "fedor@indutny.com"
+  },
+  "dist": {
+    "shasum": "8818856f3b4739de3e7ab023c78748db0364a8f0",
+    "tarball": "https://registry.npmjs.org/nat-upnp/-/nat-upnp-1.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "fedor.indutny",
+      "email": "fedor.indutny@gmail.com"
+    },
+    {
+      "name": "indutny",
+      "email": "fedor@indutny.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nat-upnp-1.1.0.tgz_1487615750638_0.08746501104906201"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nat-upnp/-/nat-upnp-1.1.0.tgz"
+}

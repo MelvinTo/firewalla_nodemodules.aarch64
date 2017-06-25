@@ -1,0 +1,79 @@
+{
+  "name": "character-parser",
+  "version": "3.0.0",
+  "description": "Parse JavaScript one character at a time to look for snippets in Templates.  This is not a validator, it's just designed to allow you to have sections of JavaScript delimited by brackets robustly.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "pretest": "npm run build",
+    "prepublishOnly": "npm run build",
+    "build": "tsc && flowgen lib/**/*",
+    "coverage": "istanbul cover test/index.js",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForbesLindesay/character-parser.git"
+  },
+  "keywords": [
+    "parser",
+    "JavaScript",
+    "bracket",
+    "nesting",
+    "comment",
+    "string",
+    "escape",
+    "escaping"
+  ],
+  "author": {
+    "name": "ForbesLindesay"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "flowgen2": "^2.0.0-alpha.12",
+    "istanbul": "~0.4.5",
+    "testit": "~2.1.3",
+    "typescript": "^2.4.0"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.31"
+  },
+  "gitHead": "2312310acd7519dc8672baf657ba56616c4abb00",
+  "bugs": {
+    "url": "https://github.com/ForbesLindesay/character-parser/issues"
+  },
+  "homepage": "https://github.com/ForbesLindesay/character-parser#readme",
+  "_id": "character-parser@3.0.0",
+  "_npmVersion": "5.0.3",
+  "_nodeVersion": "8.0.0",
+  "_npmUser": {
+    "name": "forbeslindesay",
+    "email": "forbes@lindesay.co.uk"
+  },
+  "maintainers": [
+    {
+      "name": "forbeslindesay",
+      "email": "forbes@lindesay.co.uk"
+    },
+    {
+      "name": "timothygu",
+      "email": "timothygu99@gmail.com"
+    }
+  ],
+  "dist": {
+    "integrity": "sha512-Nc4lZoFyFrQCx2vPP7DDLISQ6KzAeTMHpa0G3oeST9QBBdbvGcSmAsAlPZbXtVdZfyUrW+iDM3rYIpFH7LJBAw==",
+    "shasum": "aaae4dfdf9cda0f6396783029f09af2ff987bb3d",
+    "tarball": "https://registry.npmjs.org/character-parser/-/character-parser-3.0.0.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/character-parser-3.0.0.tgz_1498217288922_0.5814570956863463"
+  },
+  "directories": {},
+  "_shasum": "aaae4dfdf9cda0f6396783029f09af2ff987bb3d",
+  "_resolved": "https://registry.npmjs.org/character-parser/-/character-parser-3.0.0.tgz",
+  "_from": "character-parser@>=3.0.0 <4.0.0"
+}

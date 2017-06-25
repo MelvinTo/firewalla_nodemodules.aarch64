@@ -1,0 +1,71 @@
+{
+  "author": {
+    "name": "Ben Noordhuis",
+    "email": "info@bnoordhuis.nl",
+    "url": "http://bnoordhuis.nl/"
+  },
+  "name": "unix-dgram",
+  "version": "0.2.3",
+  "description": "Unix datagram socket",
+  "main": "lib/unix_dgram",
+  "homepage": "https://github.com/bnoordhuis/node-unix-dgram",
+  "license": {
+    "type": "ISC",
+    "url": "https://github.com/bnoordhuis/node-unix-dgram/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bnoordhuis/node-unix-dgram.git"
+  },
+  "engines": {
+    "node": ">=0.7.9"
+  },
+  "dependencies": {
+    "bindings": "~1.1.1",
+    "nan": "~2.3.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "node test/test-dgram-unix.js && node test/test-connect.js",
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "gitHead": "7af643f8612d2f220df0b7f4bea7732d5ce1c2ea",
+  "bugs": {
+    "url": "https://github.com/bnoordhuis/node-unix-dgram/issues"
+  },
+  "_id": "unix-dgram@0.2.3",
+  "_shasum": "eab7330f1f1041d48f9c179d9f4c5a996cafceb5",
+  "_from": "unix-dgram@>=0.2.3 <0.3.0",
+  "_npmVersion": "3.8.6",
+  "_nodeVersion": "7.0.0-pre",
+  "_npmUser": {
+    "name": "bnoordhuis",
+    "email": "info@bnoordhuis.nl"
+  },
+  "maintainers": [
+    {
+      "name": "bnoordhuis",
+      "email": "info@bnoordhuis.nl"
+    },
+    {
+      "name": "rohiniwork",
+      "email": "rohini.raghav@gmail.com"
+    },
+    {
+      "name": "sgimeno",
+      "email": "santiago.gimeno@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "eab7330f1f1041d48f9c179d9f4c5a996cafceb5",
+    "tarball": "https://registry.npmjs.org/unix-dgram/-/unix-dgram-0.2.3.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/unix-dgram-0.2.3.tgz_1461831145862_0.6526882259640843"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/unix-dgram/-/unix-dgram-0.2.3.tgz"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "geoip-country-only",
+  "version": "1.1.8",
+  "description": "Stripped down version of geoip, supporting only country lookup. Based on arve0 patch.",
+  "keywords": [
+    "geo",
+    "geoip",
+    "ip",
+    "ipv4",
+    "geolookup",
+    "maxmind",
+    "geolite",
+    "country"
+  ],
+  "homepage": "https://github.com/strml/node-geoip-country-only",
+  "author": {
+    "name": "Philip Tellis",
+    "email": "philip@bluesmoon.info",
+    "url": "http://bluesmoon.info/"
+  },
+  "files": [
+    "lib/",
+    "data/",
+    "test/",
+    "scripts/"
+  ],
+  "main": "lib/geoip.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strml/node-geoip-country-only.git"
+  },
+  "engines": {
+    "node": ">=0.6.3"
+  },
+  "scripts": {
+    "test": "nodeunit --reporter=minimal test/tests.js",
+    "updatedb": "node scripts/updatedb.js",
+    "updatedb-debug": "node scripts/updatedb.js debug",
+    "postinstall": "npm run-script updatedb"
+  },
+  "dependencies": {
+    "async": "~1.5.2",
+    "colors": "1.1.2",
+    "glob": "~7.0.3",
+    "iconv-lite": "~0.4.13",
+    "lazy": "~1.0.11",
+    "rimraf": "~2.5.2",
+    "unzip": "~0.1.11"
+  },
+  "config": {
+    "update": true
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9.1"
+  },
+  "contributors": [
+    {
+      "name": "Philip Tellis",
+      "email": "philip@bluesmoon.info",
+      "url": "http://bluesmoon.info/"
+    }
+  ],
+  "gitHead": "63d4da7732528d09c9c3f1fb5e837603e533592e",
+  "bugs": {
+    "url": "https://github.com/strml/node-geoip-country-only/issues"
+  },
+  "_id": "geoip-country-only@1.1.8",
+  "_shasum": "00eacba637f99c293408ad8fefe28a7dc7e4b3ca",
+  "_from": "geoip-country-only@latest",
+  "_npmVersion": "3.10.3",
+  "_nodeVersion": "6.5.0",
+  "_npmUser": {
+    "name": "strml",
+    "email": "samuel.trace.reed@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "strml",
+      "email": "samuel.trace.reed@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "00eacba637f99c293408ad8fefe28a7dc7e4b3ca",
+    "tarball": "https://registry.npmjs.org/geoip-country-only/-/geoip-country-only-1.1.8.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/geoip-country-only-1.1.8.tgz_1473703318815_0.8227515711914748"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/geoip-country-only/-/geoip-country-only-1.1.8.tgz"
+}
