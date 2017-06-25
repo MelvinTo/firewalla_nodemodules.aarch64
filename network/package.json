@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/tomas/network#readme",
   "_id": "network@0.3.1",
-  "_shasum": "31d5b157a39ff720c169731a9103f3ff83967906",
+  "_shasum": "ab31970205a09fd67381f633858c5f734129f684",
   "_from": "git+https://git@github.com/melvinto/network.git",
   "_resolved": "git+https://git@github.com/melvinto/network.git#08702539869c7aebfddb1bc68dac36c463acfb6d"
 }

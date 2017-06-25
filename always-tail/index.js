@@ -39,6 +39,10 @@ Tail = (function(_super) {
 
         if (err) { return next(); };
 
+        if(!start) {
+            return next();
+        }
+
         var start = self.bookmarks[block.fd];
         var end = stat.size;
   
@@ -222,9 +226,13 @@ Tail = (function(_super) {
          if (self.fd == null) {
            fs.exists(self.filename, function(exists) {
              if (exists) {
-               self.fd = fs.openSync(self.filename, 'r');
-               self.inode = curr.ino;
-               self.bookmarks[self.fd] = 0;
+               try {
+                 self.fd = fs.openSync(self.filename, 'r');
+                 self.inode = curr.ino;
+                 self.bookmarks[self.fd] = 0;
+               } catch(err) {
+                 // race condition, file is removed between exists function and openSync function
+               }
              }
              callback();
            });
